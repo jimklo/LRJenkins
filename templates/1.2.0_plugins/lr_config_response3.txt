@@ -1,0 +1,46 @@
+http://localhost
+http://%(httpd_bind_address)s:%(httpd_port)s
+http://admin:password@%(httpd_bind_address)s:%(httpd_port)s
+Test Node @ %(httpd_bind_address)s:%(httpd_port)s
+Test Node Desc @ %(httpd_bind_address)s:%(httpd_port)s
+admin@learningregistry.org
+
+F
+T
+http://localhost/incoming
+T
+T
+T
+100
+100
+T
+T
+100
+100
+T
+T
+100
+100
+T
+T
+100
+100
+T
+T
+T
+T
+T
+T
+T
+T
+T
+1000
+4194304
+T
+T
+gpg
+%(gnupg_home)s
+149522E372749066
+Learning Registry Test Key <jim.klo+test@learningregistry.org>
+passphrase
+/usr/local/var/log
